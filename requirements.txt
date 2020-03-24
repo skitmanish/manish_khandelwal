@@ -45,3 +45,4 @@ virtualenv==16.6.0
 Werkzeug==0.16.0
 whitenoise==5.0.1
 wikipedia==1.4.0
+whitenoise==5.0.1
