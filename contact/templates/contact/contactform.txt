@@ -1,0 +1,11 @@
+Name:
+{{ fname }}
+
+Email:
+{{ email }}
+
+subject:
+{{ subject }}
+
+Content:
+{{ message }}
