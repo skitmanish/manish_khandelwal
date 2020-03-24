@@ -1,1 +1,1 @@
-web: gunicorn skitmanish.wsgi --log-file-
+web: gunicorn skitmanish.wsgi --log-file -
