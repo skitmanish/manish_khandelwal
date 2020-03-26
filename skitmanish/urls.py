@@ -8,5 +8,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.detail,name='detail'),
     path('contact/',views.Contact,name='Contact'),
-    
+    path('sudoku/',views.sudoku,name='sudoku'),
+
 ]

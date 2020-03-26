@@ -70,7 +70,7 @@
 
 
 	<div id="page">
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url({% static 'images/cover_bg_3.jpg'%});" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -109,7 +109,7 @@
 						<li><span class="first-block">Full Name:</span><span class="second-block">Manish Khandelwal</span></li>
 						<li><span class="first-block">Phone:</span><span class="second-block">+91 8619179839</span></li>
 						<li><span class="first-block">Email:</span><span class="second-block">manishn9887@gmail.com</span></li>
-						<li><span class="first-block">Website:</span><span class="second-block">www.yoursite.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">https://manish-khandelwal.herokuapp.com/</span></li>
 						<li><span class="first-block">Address:</span><span class="second-block">SKIT College, Ramnagaria, Jagatpura; Jaipur-302017</span></li>
 					</ul>
 				</div>
@@ -339,7 +339,7 @@
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url({% static 'images/sudoku.png'%});">
+					<a href="{% url 'sudoku' %}" class="work" style="background-image: url({% static 'images/sudoku.png'%});">
 						<div class="desc">
 							<h3>Sudoku Solver</h3>
 							<h5>Solve any sudoku using Sudoku solver python GUI Application</h5>
@@ -371,7 +371,7 @@
                     <li><span class="first-block">Full Name:</span><span class="second-block">Manish Khandelwal</span></li>
                     <li><span class="first-block">Phone:</span><span class="second-block">+91 8619179839</span></li>
                     <li><span class="first-block">Email:</span><span class="second-block">manishn9887@gmail.com</span></li>
-                    <li><span class="first-block">Website:</span><span class="second-block">www.yoursite.com</span></li>
+                    <li><span class="first-block">Website:</span><span class="second-block">https://manish-khandelwal.herokuapp.com/</span></li>
                     <li><span class="first-block">Address:</span><span class="second-block">SKIT College, Ramnagaria, Jagatpura; Jaipur-302017</span></li>
                 </ul>
             </div>
@@ -433,7 +433,7 @@
         <div class="row">
             <div class="col-md-3 text-center col-padding animate-box">
     <h2 align=center ><u><code>MAPS</code></u></h2>
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="410" height="400" style="align:left;" id="gmap_canvas" src="https://maps.google.com/maps?q=Arya%20Samaj%20Road,%20Gurjar%20Mohalla,%20Tara%20Mahendra%20Colony,%20Bharatpur,%20Rajasthan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="20" marginwidth="20"></iframe></div><style>.mapouter{position:relative;text-align:right;height:410px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:410px;width:400px;}</style></div>
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="410" height="380" style="align:left;" id="gmap_canvas" src="https://maps.google.com/maps?q=Arya%20Samaj%20Road,%20Gurjar%20Mohalla,%20Tara%20Mahendra%20Colony,%20Bharatpur,%20Rajasthan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="20" marginwidth="20"></iframe></div><style>.mapouter{position:relative;text-align:right;height:410px;width:380px;}.gmap_canvas {overflow:hidden;background:none!important;height:410px;width:380px;}</style></div>
 </div>
     </div>
 </div>
