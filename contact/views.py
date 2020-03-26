@@ -6,8 +6,7 @@ from django.core.mail import EmailMessage
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from django.template.loader import get_template
-import tkinter
-from tkinter import *
+
 
 class ContactForm(forms.Form):
     fname = forms.CharField(required=True)
@@ -61,7 +60,7 @@ def Contact(request):
     #return render(request, 'detail.html')
     return redirect('detail')
 
-def sudoku(request):
+#def sudoku(request):
 
 
     sudoku = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
