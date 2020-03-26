@@ -6,6 +6,7 @@ from django.core.mail import EmailMessage
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from django.template.loader import get_template
+import tkinter
 from tkinter import *
 
 class ContactForm(forms.Form):
